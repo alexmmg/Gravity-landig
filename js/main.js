@@ -4,6 +4,9 @@ $(function () {
         loop: true,
         margin: 30,
         nav: true,
+        startPosition: 1,
+        navText: ["<img alt='Left' src='img/left.svg'>", "<img alt='Right' src='img/right.svg'>"],
+        dots: false,
         responsive: {
             0: {
                 items: 1
@@ -12,7 +15,7 @@ $(function () {
                 items: 1
             },
             1000: {
-                items: 2
+                items: 1
             }
         }
     });
