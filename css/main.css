@@ -220,6 +220,62 @@ ul, li {
     cursor: pointer;
 }
 
+.result {
+    padding-top: 219px;
+}
+
+.collage {
+    width: 50%;
+    height: 552px;
+    background: url("../img/img6.jpg") no-repeat left top / 80% 70%;
+    position: absolute;
+    left: 0;
+}
+
+.collage img {
+    display: block;
+    width: 350px;
+    height: 453px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    box-shadow: 30px 80px 180px rgba(0, 0, 0, 0.25);
+}
+
+.easy {
+    margin: 20px 0 0 65px;
+
+}
+
+.easy__title {
+    margin-bottom: 30px;
+}
+
+.easy__text {
+    margin-bottom: 52px;
+}
+
+.easy__point {
+
+}
+
+.easy div:nth-of-type(1) {
+    background: url("../img/icon100.svg") no-repeat left center;
+}
+
+.easy div:nth-of-type(2) {
+    background: url("../img/bag.svg") no-repeat left center;
+}
+
+.easy__point span {
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: .4em;
+    color: #000;
+    font-size: 14px;
+    padding: 20px 0 20px 83px;
+    margin-bottom: 25px;
+}
 
 
 
