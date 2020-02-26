@@ -70,8 +70,8 @@ ul, li {
 }
 
 .nav {
-    padding-top: 59px;
-    margin-bottom: 127px;
+    /*padding-top: 59px;*/
+    /*margin-bottom: 127px;*/
 }
 
 .logo {
@@ -192,11 +192,11 @@ ul, li {
     margin-left: 37px;
 }
 
-.owl-carousel {
+.works-carousel {
     margin-top: 99px;
 }
 
-.owl-carousel .item, .owl-item {
+.works-carousel .item, .works-carousel .owl-item {
     width: 825px !important;
     position: relative;
 }
@@ -282,7 +282,7 @@ ul, li {
 }
 
 .work-tabs {
-    margin-left: 60px;
+    margin-left: 10px;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: .3em;
@@ -314,7 +314,7 @@ ul, li {
 }
 
 .works-wrap__item:hover img {
-    box-shadow: -30px 80px 200px rgba(0, 0, 0, 0.25)
+    box-shadow: -30px 80px 200px rgba(0, 0, 0, 0.25);
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -o-transform: scale(1.1);
@@ -334,3 +334,58 @@ ul, li {
     cursor: pointer;
 }
 
+.testimonials {
+    padding-top: 248px;
+}
+
+.contributor {
+    margin-top: 121px;
+}
+
+.contributor__title {
+    margin-bottom: 13px;
+}
+
+.contributor__desc {
+
+}
+
+.cont-photo {
+    display: block;
+}
+
+.contributor-carousel .owl-nav {
+    display: flex;
+    margin-top: -50px;
+    position: relative;
+}
+
+.contributor-carousel .owl-prev {
+    margin-right: 25px;
+}
+
+.clients {
+    padding-top: 278px;
+}
+
+.clients-text {
+
+}
+
+.clients .section-title__label {
+    margin: 15px 0 20px;
+}
+
+.clients-row {
+    margin-top: 127px;
+}
+
+.footer {
+    height: 240px;
+    background: #515151;
+    margin-top: 136px;
+}
+
+.footer-logo {
+    margin: 109px 0;
+}
