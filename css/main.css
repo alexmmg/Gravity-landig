@@ -428,7 +428,7 @@ ul, li {
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
     .hero {
         position: relative;
         width: 100%;
@@ -476,8 +476,6 @@ ul, li {
     .serv-list__left {
         margin-left: 0;
     }
-
-
 }
 
 
