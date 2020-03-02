@@ -426,6 +426,9 @@ ul, li {
     .problems, .result, .works, .testimonials, .clients {
         padding-top: 130px;
     }
+    .owl-stage {
+        width: 5760px !important;
+    }
 }
 
 @media screen and (max-width: 768px) {
