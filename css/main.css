@@ -4,6 +4,10 @@ body {
     font-size: 18px;
 }
 
+img {
+    max-width: 100%;
+}
+
 button {
     display: block;
     border: none;
@@ -72,7 +76,7 @@ ul, li {
     font-weight: 500;
     font-size: 14px;
     padding: 13px 26px;
-    display: inline;
+    display: inline-block;
     border-radius: 0;
     letter-spacing: .3em;
     text-align: center;
@@ -84,18 +88,14 @@ ul, li {
     color: #fff;
 }
 
-.offer-content__title {
+.offer__title {
     font-size: 60px;
     letter-spacing: .01em;
     line-height: 1.2em;
 }
 
-.offer-content__text {
+.offer__text {
     margin: 30px 0 56px;
-}
-
-.offer-content__btn {
-    text-transform: uppercase;
 }
 
 .hero {
@@ -146,9 +146,13 @@ ul, li {
     margin-top: 61px;
 }
 
-.about__dop {
+.author-about__job {
     margin-bottom: 0;
 }
+
+
+/**************Section Services********************/
+
 
 .services {
     padding-top: 142px;
@@ -162,30 +166,21 @@ ul, li {
     margin-bottom: 40px;
 }
 
-.section-title__heading {
-
-}
-
-.serv-list {
+.service-list {
     color: #8d8d8d;
     margin-top: 67px;
 }
 
-.serv-list__item {
-    margin-bottom: 30px;
+.service-list:first-child {
+    margin-left: 37px;
 }
 
-.serv-list__left {
-    margin-left: 37px;
+.service-list__item {
+    margin-bottom: 30px;
 }
 
 .works-carousel {
     margin-top: 99px;
-}
-
-.works-carousel .item, .works-carousel .owl-item {
-    width: 825px !important;
-    position: relative;
 }
 
 .owl-theme .owl-nav {
@@ -206,6 +201,10 @@ ul, li {
     top: calc(50% - 32px);
     cursor: pointer;
 }
+
+
+/**********************Section Result*********************************/
+
 
 .result {
     padding-top: 219px;
@@ -231,7 +230,6 @@ ul, li {
 
 .easy {
     margin: 20px 0 0 65px;
-
 }
 
 .easy__title {
@@ -259,6 +257,10 @@ ul, li {
     padding: 20px 0 20px 83px;
     margin-bottom: 25px;
 }
+
+
+/**************************Section Works**************************/
+
 
 .works {
     padding-top: 283px;
@@ -317,6 +319,10 @@ ul, li {
     cursor: pointer;
 }
 
+
+/**********************Section Testimonials*********************************/
+
+
 .testimonials {
     padding-top: 248px;
 }
@@ -329,11 +335,7 @@ ul, li {
     margin-bottom: 13px;
 }
 
-.contributor__desc {
-
-}
-
-.cont-photo {
+.contributor-photo {
     display: block;
 }
 
@@ -347,12 +349,10 @@ ul, li {
     margin-right: 25px;
 }
 
+/**************************Section Clients*********************************/
+
 .clients {
     padding-top: 278px;
-}
-
-.clients-text {
-
 }
 
 .clients .section-title__label {
@@ -369,9 +369,22 @@ ul, li {
     margin-top: 136px;
 }
 
-.footer-logo {
-    margin: 109px 0;
+.footer .row{
+    min-height: 240px;
 }
+
+.footer__logo {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+}
+
+
+/********************Media Queries***************************/
+
 
 @media screen and (max-width: 1200px) {
     .work-tabs {
@@ -401,7 +414,7 @@ ul, li {
         font-size: 26px;
     }
 
-    .offer-content__title {
+    .offer__title {
         font-size: 40px;
     }
 
@@ -410,9 +423,9 @@ ul, li {
         padding-top: 130px;
     }
 
-    .owl-stage {
-        width: 5760px !important;
-    }
+    /*.owl-stage {*/
+    /*    width: 5760px !important;*/
+    /*}*/
 }
 
 @media screen and (max-width: 768px) {
@@ -460,9 +473,7 @@ ul, li {
 }
 
 @media screen and (max-width: 576px) {
-    .serv-list__left {
+    .service-list__left {
         margin-left: 0;
     }
 }
-
-
