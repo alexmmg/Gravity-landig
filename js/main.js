@@ -1,13 +1,12 @@
 $(function () {
     $('.works-carousel').owlCarousel({
-        // stagePadding: 50,
         loop: true,
         margin: 30,
         nav: true,
         startPosition: 1,
-        navText: ["<img alt='Left' src='img/left.svg'>", "<img alt='Right' src='img/right.svg'>"],
+        navText: ["<img alt='Left' src='img/testimonials/left.svg'>", "<img alt='Right' src='img/testimonials/right.svg'>"],
         dots: false,
-        items: 1,
+        items: 1.3,
         // responsive: {
         //     0: {
         //         items: 1
@@ -27,7 +26,7 @@ $(function () {
         margin: 0,
         nav: true,
         // startPosition: 1,
-        navText: ["<img alt='Left' src='img/left.svg'>", "<img alt='Right' src='img/right.svg'>"],
+        navText: ["<img alt='Left' src='img/testimonials/left.svg'>", "<img alt='Right' src='img/testimonials/right.svg'>"],
         dots: false,
         items: 1,
         // responsive: {
@@ -42,5 +41,4 @@ $(function () {
         //     }
         // }
     });
-
 });
