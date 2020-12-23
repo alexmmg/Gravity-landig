@@ -369,7 +369,7 @@ ul, li {
     margin-top: 136px;
 }
 
-.footer .row{
+.footer .row {
     min-height: 240px;
 }
 
@@ -395,6 +395,9 @@ ul, li {
         margin-top: 30px;
     }
 }
+
+
+/**************992px*****************/
 
 
 @media screen and (max-width: 992px) {
@@ -425,7 +428,7 @@ ul, li {
 }
 
 
-/*******************************/
+/************** 768px *****************/
 
 
 @media screen and (max-width: 768px) {
@@ -472,11 +475,23 @@ ul, li {
 }
 
 
-/********************/
+/**************************/
 
 
 @media screen and (max-width: 576px) {
     .service-list__left {
         margin-left: 0;
+    }
+
+    .hero {
+        margin-bottom: 40px;
+    }
+
+    .clients-row {
+        flex-wrap: wrap;
+    }
+
+    .clients-row__item {
+        margin: 30px;
     }
 }
